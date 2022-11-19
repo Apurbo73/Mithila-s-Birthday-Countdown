@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(13, 95, 95);
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-image: url(../images/birthday.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+
+}
+
+.heading {
+    color: yellow;
+    margin-top: 100px;
+}
+
+
+.heading2:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.text
+{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: large;
+    
+}
+
+.countDown-container
+{
+    display: flex;
+    justify-content: center;
+
+}
+.countDown-box
+{
+    margin-right: 20px;
+}
