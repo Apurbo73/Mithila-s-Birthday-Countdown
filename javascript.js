@@ -1,4 +1,4 @@
-const birthday = " 30  january  2023";
+const birthday = " 30 january  2023";
 function countDown() {
     const birthDayDate = new Date(birthday);
     const currentDate = new Date();
@@ -22,9 +22,11 @@ function countDown() {
         document.getElementById('h').innerText = " ";
         document.getElementById('m').innerText = " ";
         document.getElementById('d').innerText = " ";
-        document.body.style.backgroundColor = "#f3f3f3";
+        document.getElementById('slider').innerHTML = "";
+       
+        document.body.style.backgroundColor = "teal";
 
-        document.body.style.backgroundImage = "url(../images/mithila.jpg)";
+        document.body.style.backgroundImage = "url(../images/birthday.jpg)";
 
 
 

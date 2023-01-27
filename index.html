@@ -11,14 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="javascript.js" defer></script>
 
     <!-- The defer is a Boolean value, used to indicate that script is executed after the document has been parsed. It works only with external scripts (i.e., works only when we are specifying the src attribute in <script> tag). It declares that the script will not create any content -->
 </head>
 
-<body>
-    <h1 id="mithila" class="heading">Mithila's Birthday <span class="heading2">Count Down</span></h1>
+<body style="background-color: #000000">
+  <header>
+    <h1 id="mithila" class="heading text-center">Mithila's Birthday <span class="heading2">Count Down</span></h1>
     <div style="height:100px ;" id="counting-area" class="countDown-container">
         <div class="countDown-box days-container">
             <p class="text" id="days">0 </p><span id="d" style="color:aliceblue;font-weight: 700;">Days</span>
@@ -32,10 +33,56 @@
         <div class="countDown-box seconds-container">
             <p class="text" id="seconds">0</p> <span id="s" style="color:aliceblue;font-weight: 700;">Seconds</span>
         </div>
-        <div  id="">
-             <!-- <img src="images/apurbo.jpg" alt=""> -->
+        <div id="">
+            
+        </div>
+  </header>
+<br> <br>
+
+
+        <div>
+            <section id="slider" >
+              <div class="container">
+                <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="1000">
+                        <img style="height: 800px;  width: 100px;" src="images/mithila1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/mithila2.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mithila3.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mithila4.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mithila5.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mithila6.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mithila.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+            </section>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

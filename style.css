@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     background-image: url(../images/birthday.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
